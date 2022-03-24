@@ -1,0 +1,14 @@
+*age - Age
+*sex - Sex
+*cp - Chest Pain
+*trestbps - Resting Blood Preasure [mm Hg]
+*chol - Cholesterol
+*fbs - Fasting Blood Sugar
+restecg - Resting Electrocardiographic results
+thalach - Maximum heart rate achieved
+exang - Exercise induce angina
+oldpeak - ST depression induced by exercise relative to rest
+slope - the slope of the peak exercise st segment
+ca - number of major vessels colored
+thal - 3 = normal; 6 = fixed defect; 7 = reversable defect
+target - diagnosis of heart disease
