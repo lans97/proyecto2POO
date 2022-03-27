@@ -51,7 +51,7 @@ public class FileUtils {
         }
         
         FileWriter fw = new FileWriter("src/" + fileName);
-        fw.write("@relation luis\n");
+        fw.write("@relation equipo3\n");
         fw.write("\n");
         fw.write("@attribute age REAL\n");
         fw.write("@attribute sex REAL\n");

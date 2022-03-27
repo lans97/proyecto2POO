@@ -1,7 +1,7 @@
 *age - Age
 *sex - Sex
 *cp - Chest Pain
-*trestbps - Resting Blood Preasure [mm Hg]
+*trestbps - Resting Blood Pressure [mm Hg]
 *chol - Cholesterol
 *fbs - Fasting Blood Sugar
 restecg - Resting Electrocardiographic results
