@@ -33,16 +33,38 @@ public class App {
 
         Instance instance = new DenseInstance(6);
         instance.setDataset(instances);
-        instance.setValue(0, 58);// Age
+        instance.setValue(0, 34);// Age
         instance.setValue(1, 0);// Sex
-        instance.setValue(2, 3);// Chest Pain [intensity]
-        instance.setValue(3, 140);// Resting Blood Pressure [mm Hg]
+        instance.setValue(2, 1);// Chest Pain [intensity]
+        instance.setValue(3, 196);// Resting Blood Pressure [mm Hg]
         instance.setValue(4, 210);// Cholesterol
-        instance.setValue(5, 1);// Fasting Blood Sugar [bool]
+        instance.setValue(5, 0);// Fasting Blood Sugar [bool]
 
         int result = (int) tree.classifyInstance(instance);
 
-        System.out.println(result);
+        System.out.println("Instancia de prueba no. 1: " + result);
+
+        instance.setValue(0, 68);// Age
+        instance.setValue(1, 1);// Sex
+        instance.setValue(2, 3);// Chest Pain [intensity]
+        instance.setValue(3, 150);// Resting Blood Pressure [mm Hg]
+        instance.setValue(4, 160);// Cholesterol
+        instance.setValue(5, 1);// Fasting Blood Sugar [bool]
+
+        result = (int) tree.classifyInstance(instance);
+
+        System.out.println("Instancia de prueba no. 2: " + result);
+
+        instance.setValue(0, 34);// Age
+        instance.setValue(1, 1);// Sex
+        instance.setValue(2, 1);// Chest Pain [intensity]
+        instance.setValue(3, 196);// Resting Blood Pressure [mm Hg]
+        instance.setValue(4, 170);// Cholesterol
+        instance.setValue(5, 0);// Fasting Blood Sugar [bool]
+
+        result = (int) tree.classifyInstance(instance);
+
+        System.out.println("Instancia de prueba no. 3: " + result);
 
 
     }
